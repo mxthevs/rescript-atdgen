@@ -7,3 +7,10 @@ dist-ssr
 /lib
 .bsb.lock
 *.bs.js
+
+# esy stuff
+_esy
+
+# atdgen generated code
+*_t.ml*
+*_bs.ml*

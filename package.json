@@ -6,9 +6,11 @@
     "build": "vite build",
     "serve": "vite preview",
     "rescript:build": "rescript",
-    "rescript:start": "rescript build -w"
+    "rescript:start": "rescript build -w",
+    "atdgen": "esy atdgen -t src/character.atd && esy atdgen -bs src/character.atd"
   },
   "dependencies": {
+    "@ahrefs/bs-atdgen-codec-runtime": "^2.2.0",
     "@rescript/react": "0.10.3",
     "@vitejs/plugin-react": "1.0.1",
     "react": "17.0.0",
