@@ -12,6 +12,7 @@
   "dependencies": {
     "@ahrefs/bs-atdgen-codec-runtime": "^2.2.0",
     "@rescript/react": "0.10.3",
+    "@ryyppy/rescript-promise": "^2.1.0",
     "@vitejs/plugin-react": "1.0.1",
     "react": "17.0.0",
     "react-dom": "17.0.0",

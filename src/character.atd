@@ -1,0 +1,19 @@
+type loc = {
+  name: string;
+  url: string;
+}
+
+type character = {
+  id: int;
+  name: string;
+  status: string;
+  species: string;
+  type_ <json name="type">: string;
+  gender: string;
+  origin: loc;
+  location: loc;
+  image: string;
+  episode: string list;
+  url: string;
+  created: string;
+}

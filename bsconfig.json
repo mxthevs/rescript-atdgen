@@ -16,6 +16,7 @@
   "suffix": ".bs.js",
   "bs-dependencies": [
     "@rescript/react",
-    "@ahrefs/bs-atdgen-codec-runtime"
+    "@ahrefs/bs-atdgen-codec-runtime",
+    "@ryyppy/rescript-promise"
   ]
 }
