@@ -1,0 +1,18 @@
+{
+  "name": "rescript-atdgen",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "reason": { "react-jsx": 3 },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["@rescript/react"]
+}

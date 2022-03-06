@@ -1,0 +1,2 @@
+# ReScript + atdgen Example
+
