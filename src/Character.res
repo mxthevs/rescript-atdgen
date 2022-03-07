@@ -1,6 +1,8 @@
 module Int = Belt.Int
 module Float = Belt.Float
 
+exception RequestError
+
 let getRandomId = () => {
   let minId = 1.0
   let maxId = 826.0
@@ -19,6 +21,7 @@ let getAndDecode = (url, decode) => {
   )
   ->then(Fetch.Response.json)
   ->then(json => json->decode->resolve)
+  ->catch(_ => reject(RequestError))
 }
 
 let getRandomCharacter = (): Promise.t<Character_t.character> => {
